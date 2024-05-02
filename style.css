@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: url('https://cdn.glitch.global/025e9b54-bd6f-4d1a-978b-275c95a2fdc7/Thi%E1%BA%BFt%20k%E1%BA%BF%20ch%C6%B0a%20c%C3%B3%20t%C3%AAn.png?v=1714666919341');
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .form-container {
+    background: pink;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 600px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
